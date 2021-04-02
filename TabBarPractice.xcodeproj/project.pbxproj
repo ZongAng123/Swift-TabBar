@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		742ABE242616F13A008E5335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE232616F13A008E5335 /* AppDelegate.swift */; };
-		742ABE262616F13A008E5335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE252616F13A008E5335 /* SceneDelegate.swift */; };
 		742ABE282616F13A008E5335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE272616F13A008E5335 /* ViewController.swift */; };
 		742ABE2B2616F13A008E5335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742ABE292616F13A008E5335 /* Main.storyboard */; };
 		742ABE2D2616F13D008E5335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742ABE2C2616F13D008E5335 /* Assets.xcassets */; };
 		742ABE302616F13D008E5335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742ABE2E2616F13D008E5335 /* LaunchScreen.storyboard */; };
 		742ABE3B2616F13D008E5335 /* TabBarPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE3A2616F13D008E5335 /* TabBarPracticeTests.swift */; };
 		742ABE462616F13D008E5335 /* TabBarPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE452616F13D008E5335 /* TabBarPracticeUITests.swift */; };
+		742ABE642616F209008E5335 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE632616F209008E5335 /* HomeViewController.swift */; };
+		742ABE6C2616F213008E5335 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE6B2616F213008E5335 /* MyViewController.swift */; };
+		742ABE712616F21F008E5335 /* KongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE702616F21F008E5335 /* KongViewController.swift */; };
+		742ABE762616F28D008E5335 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742ABE752616F28D008E5335 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		742ABE202616F13A008E5335 /* TabBarPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742ABE232616F13A008E5335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		742ABE252616F13A008E5335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		742ABE272616F13A008E5335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		742ABE2A2616F13A008E5335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		742ABE2C2616F13D008E5335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		742ABE412616F13D008E5335 /* TabBarPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742ABE452616F13D008E5335 /* TabBarPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPracticeUITests.swift; sourceTree = "<group>"; };
 		742ABE472616F13D008E5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742ABE632616F209008E5335 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		742ABE6B2616F213008E5335 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		742ABE702616F21F008E5335 /* KongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KongViewController.swift; sourceTree = "<group>"; };
+		742ABE752616F28D008E5335 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		742ABE222616F13A008E5335 /* TabBarPractice */ = {
 			isa = PBXGroup;
 			children = (
+				742ABE5F2616F1E0008E5335 /* Class */,
 				742ABE232616F13A008E5335 /* AppDelegate.swift */,
-				742ABE252616F13A008E5335 /* SceneDelegate.swift */,
 				742ABE272616F13A008E5335 /* ViewController.swift */,
+				742ABE752616F28D008E5335 /* MainTabBarController.swift */,
 				742ABE292616F13A008E5335 /* Main.storyboard */,
 				742ABE2C2616F13D008E5335 /* Assets.xcassets */,
 				742ABE2E2616F13D008E5335 /* LaunchScreen.storyboard */,
@@ -126,6 +133,40 @@
 				742ABE472616F13D008E5335 /* Info.plist */,
 			);
 			path = TabBarPracticeUITests;
+			sourceTree = "<group>";
+		};
+		742ABE5F2616F1E0008E5335 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				742ABE622616F1F6008E5335 /* Kong */,
+				742ABE612616F1F1008E5335 /* My */,
+				742ABE602616F1E9008E5335 /* Home */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		742ABE602616F1E9008E5335 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				742ABE632616F209008E5335 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		742ABE612616F1F1008E5335 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				742ABE6B2616F213008E5335 /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		742ABE622616F1F6008E5335 /* Kong */ = {
+			isa = PBXGroup;
+			children = (
+				742ABE702616F21F008E5335 /* KongViewController.swift */,
+			);
+			path = Kong;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +301,10 @@
 			files = (
 				742ABE282616F13A008E5335 /* ViewController.swift in Sources */,
 				742ABE242616F13A008E5335 /* AppDelegate.swift in Sources */,
-				742ABE262616F13A008E5335 /* SceneDelegate.swift in Sources */,
+				742ABE762616F28D008E5335 /* MainTabBarController.swift in Sources */,
+				742ABE6C2616F213008E5335 /* MyViewController.swift in Sources */,
+				742ABE642616F209008E5335 /* HomeViewController.swift in Sources */,
+				742ABE712616F21F008E5335 /* KongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
 				INFOPLIST_FILE = TabBarPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
 				INFOPLIST_FILE = TabBarPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
